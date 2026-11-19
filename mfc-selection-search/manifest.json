@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "MyFigureCollection",
+  "version": "1.0.0",
+  "description": "Search Google for selected text together with MyFigureCollection.",
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "128": "icon-128.png",
+    "16": "icon-16.png",
+    "48": "icon-48.png"
+  }
+}
